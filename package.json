@@ -8,6 +8,9 @@
     "start:dev": "nodemon",
     "start": "node ./dist/index.js"
   },
+  "files": [
+    "src"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {

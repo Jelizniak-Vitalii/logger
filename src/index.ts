@@ -1,7 +1,7 @@
 import pino, { Level, Logger as PinoLogger, stdSerializers } from 'pino';
 import { LoggerConfig, LogLevel } from './logger.models';
 
-export class Logger {
+export default class Logger {
   private logger: PinoLogger;
 
   constructor(
